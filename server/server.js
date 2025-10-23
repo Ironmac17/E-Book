@@ -7,6 +7,8 @@ const connectDB=require("./config/db")
 const authRoutes=require('./routes/authRoutes');
 const bookRoutes=require('./routes/bookRoutes');
 const aiRoutes=require('./routes/aiRoutes');
+const exportRoutes=require('./routes/exportRoutes');
+
 
 
 
@@ -29,7 +31,7 @@ app.use("/backend/uploads",express.static(path.join(__dirname,"uploads")));
 app.use("/api/auth",authRoutes);
 app.use("/api/books",bookRoutes);
 app.use("/api/ai",aiRoutes);
-
+app.use("/api/export",exportRoutes);
 
 
 const PORT=process.env.PORT || 5000;
