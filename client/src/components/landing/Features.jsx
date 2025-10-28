@@ -7,6 +7,9 @@ const Features = () => {
       id="features"
       className="relative py-24 lg:py-32 bg-white overflow-hidden"
     >
+
+      <div className="absolute inset-0 bg-gradient-to-b from-violet-50/50 via-transparent to-purple-50/50"></div>
+
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative">
         <div className="text-center mb-20 space-y-4">
           <div className="inline-flex items-center space-x-2 bg-violet-100 px-4 py-2 rounded-full">

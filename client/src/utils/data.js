@@ -34,26 +34,27 @@ export const FEATURES=[
 export const TESTIMONIALS = [
   {
     quote:
-      "I finished my first ebook in a week. The editor, templates, and AI suggestions made the process actually fun instead of overwhelming.",
+      "I finished my first ebook in under a week. The templates, editor, and AI suggestions made the process smooth and actually fun.",
     author: "Aarav Mehta",
     title: "Independent Author",
-    avatar: "https://images.unsplash.com/photo-1603415526960-f7e0328f9e8b?crop=faces&fit=crop&w=200&h=200",
+    avatar: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=200&h=200",
     rating: 5,
   },
   {
     quote:
-      "I’ve tried other ebook tools before, but this one feels different. Clean interface, smart automation, and real creative control. Exactly what I needed.",
+      "I've used other ebook tools before, but this one’s different. Clean layout, smart automation, and total creative freedom — exactly what I was missing.",
     author: "Sofia Khan",
     title: "Digital Creator & Blogger",
-    avatar: "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?crop=faces&fit=crop&w=200&h=200",
+    avatar: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=200&h=200",
     rating: 5,
   },
   {
     quote:
-      "Publishing my book used to sound impossible. This platform turned my messy drafts into a polished, publish-ready ebook—without hiring anyone.",
+      "I always thought publishing my own book would be impossible. This platform turned my rough drafts into a polished ebook — no designer needed.",
     author: "Liam Parker",
     title: "First-time Author",
-    avatar: "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?crop=faces&fit=crop&w=200&h=200",
+    avatar: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=200&h=200",
     rating: 5,
   },
 ];
+
