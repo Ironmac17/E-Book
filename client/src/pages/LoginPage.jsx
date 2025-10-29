@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {Link,useNavigate} from 'react-router-dom'
-import {Mail,Lock,BookOpen, Book} from 'lucide-react'
+import {Mail,Lock,BookOpen} from 'lucide-react'
 import toast from 'react-hot-toast'
 import InputField from '../components/ui/InputField'
 import Button from '../components/ui/Button'
@@ -38,6 +38,8 @@ const LoginPage = () => {
       setIsLoading(false);
     }
   };
+
+  
   return (
     <div className='min-h-screen bg-slate-50 flex items-center justify-center'>
       <div className='w-full max-w-md'>
