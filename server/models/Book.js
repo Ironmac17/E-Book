@@ -28,7 +28,8 @@ const bookSchema=new mongoose.Schema(
         },
         subtitle:{
             type:String,
-            required:"",
+            required: false,
+            default: "",  
         },
         author:{
             type:String,
