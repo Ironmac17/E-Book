@@ -101,7 +101,6 @@ const CreateBookModal = ({ isOpen, onClose, onBookCreated }) => {
       onClose();
       resetModal();
     } catch (error) {
-      console.log("TESR__", bookTitle, chapters);
       toast.error(error.response?.data?.message || "Failed to create eBook.");
     } finally {
       setIsFinalizingBook(false);
