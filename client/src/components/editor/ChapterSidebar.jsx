@@ -30,7 +30,7 @@ const SortableItem=({chapter,index,selectedChapterIndex,onSelectChapter,onDelete
                 <Button variant='ghost' size="small" className='py-2 px-2' onClick={()=>onGenerateChapterContent(index)} isLoading={isGenerating===index} title="Generate content with AI">
                     {isGenerating !== index && <Sparkles className='w-3.5 h-3.5 text-violet-800' />}
                 </Button>
-                <Button variant='ghost' size="small" className='px-2 py-2' onClick={()=>onDeleteChapter(index)} isLoading={isGenerating===index} title="Delete Chapter">
+                <Button variant='ghost' size="small" className='px-2 py-2' onClick={()=>onDeleteChapter(index)} title="Delete Chapter">
                     <Trash2 className='w-3.5 h-3.5 text-red-500'/>
                 </Button>
             </div>

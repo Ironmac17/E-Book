@@ -8,7 +8,7 @@ const BookCard = ({book,onDelete}) => {
   const navigate=useNavigate();
   const coverImageUrl=book.coverImage
     ? `${BASE_URL}/backend${book.coverImage}`.replace(/\\/g,"/")
-    : "";
+    : null;
 
   return (
     <div  className='group relative bg-white rounded-xl overflow-hidden border border-gray-100 hover:border-gray-200 transition-all duration-300 hover:shadow-xl hover:shadow-gray-100/50 hover:-translate-y-1 cursor-pointer' 

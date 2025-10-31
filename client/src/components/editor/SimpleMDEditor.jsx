@@ -32,7 +32,7 @@ const SimpleMDEditor = ({value,onChange,options}) => {
                     commands.orderedListCommand,
                     commands.checkedListCommand,
                 ]}
-                hideMenu={true}
+                hideToolbar={true}
             />
         </div>
     </div>
