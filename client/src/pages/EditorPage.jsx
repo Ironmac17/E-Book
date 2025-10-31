@@ -388,7 +388,7 @@ const EditorPage = () => {
               <BookDetialsTab
                 book={book}
                 onBookChange={handleBookChange}
-                onCoverUploads={handleCoverImageUpload}
+                onCoverUpload={handleCoverImageUpload}
                 isUploading={isUploading}
                 fileInputRef={fileInputRef}
               />
