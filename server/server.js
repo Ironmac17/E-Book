@@ -28,6 +28,10 @@ app.use(express.json());
 
 app.use("/backend/uploads",express.static(path.join(__dirname,"uploads")));
 
+app.get("/", (req, res) => {
+  res.send("Backend is running successfully on Vercel!");
+});
+
 app.use("/api/auth",authRoutes);
 app.use("/api/books",bookRoutes);
 app.use("/api/ai",aiRoutes);
