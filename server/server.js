@@ -12,8 +12,8 @@ const exportRoutes = require("./routes/exportRoutes");
 const app = express();
 
 const allowedOrigins = [
-  "https://ebookcreater.vercel.app",
   "https://ebookcreater-git-main-ironmac17s-projects.vercel.app",
+  "https://ebookcreater.vercel.app",
   "http://localhost:5173"
 ];
 
