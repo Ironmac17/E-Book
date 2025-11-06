@@ -34,5 +34,7 @@ app.use("/api/ai",aiRoutes);
 app.use("/api/export",exportRoutes);
 
 
-const PORT=process.env.PORT || 5000;
-app.listen(PORT,()=> console.log(`Server running on Port ${PORT}`));
+// const PORT=process.env.PORT || 5000;
+// app.listen(PORT,()=> console.log(`Server running on Port ${PORT}`));
+
+module.exports = app;
